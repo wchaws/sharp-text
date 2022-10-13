@@ -4,14 +4,48 @@ const svgtxt = `<?xml version="1.0" standalone="no"?>
   height="500"
   width="500">
   <text
-  text-anchor="middle"
-  x="50%" y="50%"
+  x="0" y="0"
   fill="white"
-  font-size="50px"
+  text-anchor="start"
+  font-size="80px"
+  baseline-shift="-85%"
   font-family="Open Sans"
-  font-style="Medium"
   >
-  Hello World 你好世界
+  爱 nw
+  </text>
+
+  <text
+  x="500" y="0"
+  fill="white"
+  text-anchor="end"
+  font-size="80px"
+  baseline-shift="-85%"
+  font-family="Open Sans"
+  >
+  ne 我
+  </text>
+
+  <text
+  x="0" y="500"
+  fill="white"
+  text-anchor="start"
+  font-size="80px"
+  baseline-shift="15%"
+  font-family="Open Sans"
+  >
+  中 sw
+  </text>
+
+  <text
+  x="500" y="500"
+  fill="white"
+  text-anchor="end"
+  font-size="80px"
+  baseline-shift="15%"
+  line-height="10px"
+  font-family="Open Sans"
+  >
+  se 华
   </text>
 </svg>`;
 
